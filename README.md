@@ -1,1 +1,18 @@
-# MDA-RetinaNet
+# Detectron2 implementation of MDA-RetinaNet [UNSUPERVISED MULTI TARGET DOMAIN ADAPTATION FOR OBJECT DETECTION]
+<img src='.mda-retinanet.png' width=90%/>
+
+## Introduction
+Follow the official guide to install [Detectron2 0.2.1](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md) on your pc.
+
+### Data Preparation
+If you want to use this code with your dataset arrange the dataset in the format of COCO. Inside the script uda_train.py register your dataset using <br> ```register_coco_instances("dataset_name_soruce_training",{},"path_annotations","path_images")```<br>
+```register_coco_instances("dataset_name_target_training",{},"path_annotations","path_images")```<br>
+```register_coco_instances("dataset_name_target2_training",{},"path_annotations","path_images")```<br>
+```register_coco_instances("dataset_name_target_test",{},"path_annotations","path_images")```<br>
+```register_coco_instances("dataset_name_target_test2",{},"path_annotations","path_images")```<br>
+### Training
+Replace at the following path ```detectron2/modeling/meta_arch/``` the retinanet.py script with our retinanet.py. Do the same for the fpn.py file at the path ```detectron2/modeling/backbone/```<br>
+Run the script train.py
+
+### Testing
+If you want to test the model, set to 0 the number of iteration and run the uda_train.py
