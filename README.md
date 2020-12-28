@@ -1,5 +1,5 @@
 # Detectron2 implementation of MDA-RetinaNet [UNSUPERVISED MULTI TARGET DOMAIN ADAPTATION FOR OBJECT DETECTION]
-<img src='.mda-retinanet.png' width=90%/>
+<img src='mda-retinanet.png' width=90%/>
 
 ## Introduction
 Follow the official guide to install [Detectron2 0.2.1](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md) on your pc.
@@ -15,4 +15,4 @@ Replace at the following path ```detectron2/modeling/meta_arch/``` the retinanet
 Run the script train.py
 
 ### Testing
-If you want to test the model, set to 0 the number of iteration and run the uda_train.py
+If you want to test the model, set to 0 the number of iteration and run the mda_train.py
