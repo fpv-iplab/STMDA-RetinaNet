@@ -1,5 +1,5 @@
-# Detectron2 implementation of MDA-RetinaNet [UNSUPERVISED MULTI TARGET DOMAIN ADAPTATION FOR OBJECT DETECTION]
-<img src='mda-retinanet.png' width=90%/>
+# Detectron2 implementation of MDA-RetinaNet UNSUPERVISED MULTI TARGET DOMAIN ADAPTATION FOR OBJECT DETECTION
+<img src='mda-retinanet.png' width=100%/>
 
 ## Introduction
 Follow the official guide to install [Detectron2 0.2.1](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md) on your pc.
