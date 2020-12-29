@@ -1,4 +1,4 @@
-# Detectron2 implementation of MDA-RetinaNet UNSUPERVISED MULTI TARGET DOMAIN ADAPTATION FOR OBJECT DETECTION
+# Detectron2 implementation of MDA-RetinaNet Unsupervised Multi Target Domain Adaptation For Object Detection
 <img src='mda-retinanet.png' width=100%/>
 
 ## Introduction
