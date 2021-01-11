@@ -20,5 +20,7 @@ If you want to test the model, set to 0 the number of iteration and run the mda_
 ### Results
 <p>
 <img src='./results/result.png' width=42%;/>
+</p>
+<p>
 <img src='./results/result2.png' width=42%;/>
 </p>
