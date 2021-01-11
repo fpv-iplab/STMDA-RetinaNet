@@ -16,3 +16,9 @@ Run the script train.py
 
 ### Testing
 If you want to test the model, set to 0 the number of iteration and run the mda_train.py
+
+### Results
+<p>
+<img src='./Images/result.png' width=42%;/>
+<img src='./Images/result2.png' width=42%;/>
+</p>
