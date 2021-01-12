@@ -24,3 +24,13 @@ If you want to test the model, set to 0 the number of iteration and run the mda_
 <p>
 <img src='./results/result2.png' width=42%;/>
 </p>
+
+## Citation
+Please cite the following paper if you use this repository for your project.
+```
+@inproceedings{pasqualino2021multitarget,
+  year = { 2021 },
+  booktitle = { International Conference on Image Processing (ICIP) },
+  title = { Unsupervised Multi-Target Domain Adaptation for Object Detection },
+  author = { Giovanni Pasqualino, Antonino Furnari, Giovanni Maria Farinella },
+}
