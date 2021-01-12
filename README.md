@@ -12,7 +12,7 @@ If you want to use this code with your dataset arrange the dataset in the format
 ```register_coco_instances("dataset_name_target_test2",{},"path_annotations","path_images")```<br>
 ### Training
 Replace at the following path ```detectron2/modeling/meta_arch/``` the retinanet.py script with our retinanet.py. Do the same for the fpn.py file at the path ```detectron2/modeling/backbone/```<br>
-Run the script train.py
+Run the script train.py <br>
 Trained model are available at these links: <br>
 [MDA-RetinaNet](https://iplab.dmi.unict.it/OBJ-MDA/MDA-RetinaNet.pth) <br>
 [MDA-RetinaNet-CycleGAN]()
