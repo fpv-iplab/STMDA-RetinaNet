@@ -143,7 +143,13 @@ cfg_target2.SOLVER.IMS_PER_BATCH = 2
 
 do_train(cfg_source, cfg_target, cfg_target2, model)
 
-#test
+#test Hololens
+from detectron2.evaluation import COCOEvaluator, inference_on_dataset
+evaluator = COCOEvaluator("dataset_test_real", cfg_source, False, output_dir="./output/")
+val_loader = build_detection_test_loader(cfg_source, "dataset_test_real")
+inference_on_dataset(model, val_loader, evaluator)
+
+#test GoPro
 from detectron2.evaluation import COCOEvaluator, inference_on_dataset
 evaluator = COCOEvaluator("dataset_test_real2", cfg_source, False, output_dir="./output/")
 val_loader = build_detection_test_loader(cfg_source, "dataset_test_real2")
