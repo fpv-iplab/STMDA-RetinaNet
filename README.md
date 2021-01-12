@@ -28,7 +28,7 @@ If you want to test the model load the new weights, set to 0 the number of itera
 <img src='./results/result2.png' width=42%;/>
 </p>
 
-## Citation
+<!---## Citation
 Please cite the following paper if you use this repository for your project.
 ```
 @inproceedings{pasqualino2021multitarget,
@@ -37,6 +37,6 @@ Please cite the following paper if you use this repository for your project.
   title = { Unsupervised Multi-Target Domain Adaptation for Object Detection },
   author = { Giovanni Pasqualino, Antonino Furnari, Giovanni Maria Farinella },
 }
-```
+```-->
 ## Other Works
 [DA-RetinaNet](https://github.com/fpv-iplab/DA-RetinaNet)
