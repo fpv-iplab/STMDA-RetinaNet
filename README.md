@@ -13,6 +13,9 @@ If you want to use this code with your dataset arrange the dataset in the format
 ### Training
 Replace at the following path ```detectron2/modeling/meta_arch/``` the retinanet.py script with our retinanet.py. Do the same for the fpn.py file at the path ```detectron2/modeling/backbone/```<br>
 Run the script train.py
+Trained model are available at these links:
+[MDA-RetinaNet](https://iplab.dmi.unict.it/OBJ-MDA/MDA-RetinaNet.pth)
+[MDA-RetinaNet-CycleGAN]()
 
 ### Testing
 If you want to test the model, load the new weights and set to 0 the number of iteration and run the mda_train.py
