@@ -34,6 +34,6 @@ Please cite the following paper if you use this repository for your project.
   title = { Unsupervised Multi-Target Domain Adaptation for Object Detection },
   author = { Giovanni Pasqualino, Antonino Furnari, Giovanni Maria Farinella },
 }
-
+```
 ## Other Works
 [DA-RetinaNet](https://github.com/fpv-iplab/DA-RetinaNet)
