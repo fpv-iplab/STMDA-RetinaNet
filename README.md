@@ -21,9 +21,58 @@ Trained models are available at these links: <br>
 If you want to test the model load the new weights, set to 0 the number of iterations and run the mda_train.py
 
 ### Results
-<p>
-<img src='./results/result.png' width=42%;/>
-</p>
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Source</th>
+    <th>Target</th>
+    <th>Test H</th>
+    <th>Test G</th>
+  </tr>
+  <tr>
+    <td>Faster RCNN</td>
+    <td>S</td>
+    <td>-</td>
+    <td>7.61%</td>
+    <td>30.39%</td>
+  </tr>
+  <tr>
+    <td>RetinaNet</td>
+    <td>S</td>
+    <td>-</td>
+    <td>14.10%</td>
+    <td>37.13%</td>
+  </tr>
+  <tr>
+    <td>DA-Faster RCNN</td>
+    <td>S</td>
+    <td>H+G merged</td>
+    <td>10.53%</td>
+    <td>48.23%</td>
+  </tr>
+  <tr>
+    <td>Strong Weak</td>
+    <td>S</td>
+    <td>H+G merged</td>
+    <td>26.68%</td>
+    <td>48.55%</td>
+  </tr>
+  <tr>
+    <td>DA-RetinaNet</td>
+    <td>S</td>
+    <td>H+G merged</td>
+    <td>31.63%</td>
+    <td>48.37%</td>
+  </tr>
+  <tr>
+    <td>MDA-RetinaNet</td>
+    <td>S</td>
+    <td>H+G</td>
+    <td>34.97%</td>
+    <td>50.81%</td>
+  </tr>
+</table>
+
 <p>
 <img src='./results/result2.png' width=42%;/>
 </p>
