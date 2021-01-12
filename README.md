@@ -21,6 +21,10 @@ Trained models are available at these links: <br>
 If you want to test the model load the new weights, set to 0 the number of iterations and run the mda_train.py
 
 ### Results
+<p>
+  Results of baseline and feature alignment methods. S refers to Synthetic, H refers to Hololens and G to GoPro.
+</p>
+
 <table>
   <tr>
     <th>Model</th>
@@ -72,10 +76,60 @@ If you want to test the model load the new weights, set to 0 the number of itera
     <td>50.81%</td>
   </tr>
 </table>
-
 <p>
-<img src='./results/result2.png' width=42%;/>
+Results of baseline and feature alignment methods combined with CycleGAN. H refers to Hololens while G to GoPro. "{G, H}" refers to synthetic images translated to the merged Hololens and GoPro domains.
 </p>
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Source</th>
+    <th>Target</th>
+    <th>Test H</th>
+    <th>Test G</th>
+  </tr>
+  <tr>
+    <td>Faster RCNN</td>
+    <td>{G, H}</td>
+    <td>-</td>
+    <td>15.34%</td>
+    <td>63.60%</td>
+  </tr>
+  <tr>
+    <td>RetinaNet</td>
+    <td>{G, H}</td>
+    <td>-</td>
+    <td>31.43%</td>
+    <td>69.59%</td>
+  </tr>
+  <tr>
+    <td>DA-Faster RCNN</td>
+    <td>{G, H}</td>
+    <td>H+G merged</td>
+    <td>32.13%</td>
+    <td>65.19%</td>
+  </tr>
+  <tr>
+    <td>Strong Weak</td>
+    <td>{G, H}</td>
+    <td>H+G merged</td>
+    <td>41.11%</td>
+    <td>66.45%</td>
+  </tr>
+  <tr>
+    <td>DA-RetinaNet</td>
+    <td>{G, H}</td>
+    <td>H+G merged</td>
+    <td>52.07%</td>
+    <td>71.14%</td>
+  </tr>
+  <tr>
+    <td>MDA-RetinaNet</td>
+    <td>{G, H}</td>
+    <td>H+G</td>
+    <td>58.11%</td>
+    <td>71.39%</td>
+  </tr>
+</table>
 
 <!---## Citation
 Please cite the following paper if you use this repository for your project.
