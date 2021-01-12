@@ -15,7 +15,7 @@ Replace at the following path ```detectron2/modeling/meta_arch/``` the retinanet
 Run the script train.py <br>
 Trained model are available at these links: <br>
 [MDA-RetinaNet](https://iplab.dmi.unict.it/OBJ-MDA/MDA-RetinaNet.pth) <br>
-[MDA-RetinaNet-CycleGAN]()
+[MDA-RetinaNet-CycleGAN](https://iplab.dmi.unict.it/OBJ-MDA/MDA-RetinaNet-CycleGAN.pth)
 
 ### Testing
 If you want to test the model, load the new weights and set to 0 the number of iteration and run the mda_train.py
