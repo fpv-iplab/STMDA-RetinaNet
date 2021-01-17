@@ -21,7 +21,7 @@ Trained models are available at these links: <br>
 [MDA-RetinaNet-CycleGAN](https://iplab.dmi.unict.it/OBJ-MDA/MDA-RetinaNet-CycleGAN.pth)
 
 ### Testing
-If you want to test the model load the new weights, set to 0 the number of iterations and run the mda_train.py
+If you want to test the model load the new weights, set to 0 the number of iterations and run mda_train.py
 
 ### Results
 <p>
