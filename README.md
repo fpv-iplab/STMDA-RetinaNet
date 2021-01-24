@@ -24,7 +24,7 @@ docker exec -it name_container /bin/bash
 ```
 
 ### Google Colab
-Load and run the MDA-RetinaNet.ipynb on Google coolab following the instructions inside the notebook.
+Load and run the MDA-RetinaNet.ipynb on Google Colab following the instructions inside the notebook.
 
 ## Dataset
 Dataset is available [here](https://iplab.dmi.unict.it/OBJ-MDA/OBJ_MDA.zip)
