@@ -71,7 +71,7 @@ If you want to test the model load the new weights, set to 0 the number of itera
     <td>48.23%</td>
   </tr>
   <tr>
-    <td>Strong Weak</td>
+    <td><a href= "https://openaccess.thecvf.com/content_CVPR_2019/papers/Saito_Strong-Weak_Distribution_Alignment_for_Adaptive_Object_Detection_CVPR_2019_paper.pdf"> StrongWeak</a></td>
     <td>S</td>
     <td>H+G merged</td>
     <td>26.68%</td>
@@ -125,7 +125,7 @@ Results of baseline and feature alignment methods combined with CycleGAN. H refe
     <td>65.19%</td>
   </tr>
   <tr>
-    <td>Strong Weak</td>
+    <td><a href= "https://openaccess.thecvf.com/content_CVPR_2019/papers/Saito_Strong-Weak_Distribution_Alignment_for_Adaptive_Object_Detection_CVPR_2019_paper.pdf"> StrongWeak</a></td>
     <td>{G, H}</td>
     <td>H+G merged</td>
     <td>41.11%</td>
