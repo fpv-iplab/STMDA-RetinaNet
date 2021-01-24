@@ -19,13 +19,13 @@ from detectron2.utils.events import CommonMetricPrinter, EventStorage, JSONWrite
 import torch, torchvision
 from detectron2.data.datasets import register_coco_instances,load_coco_json
 
-register_coco_instances("dataset_train_synthetic", {}, "Bellomo_Dataset_UDA/synthetic/Object_annotations/Training_annotations.json", "Bellomo_Dataset_UDA/synthetic/images")
+register_coco_instances("dataset_train_synthetic", {}, "Bellomo_Dataset_MDA/synthetic/Object_annotations/Training_annotations.json", "Bellomo_Dataset_MDA/synthetic/images")
 
-register_coco_instances("dataset_train_real", {}, "Bellomo_Dataset_UDA/real_hololens/training/training_set.json", "Bellomo_Dataset_UDA/real_hololens/training")
-register_coco_instances("dataset_train_real2", {},"Bellomo_Dataset_UDA/real_gopro/Training/training_set.json","Bellomo_Dataset_UDA/real_gopro/Training")
+register_coco_instances("dataset_train_real", {}, "Bellomo_Dataset_MDA/real_hololens/training/training_set.json", "Bellomo_Dataset_MDA/real_hololens/training")
+register_coco_instances("dataset_train_real2", {},"Bellomo_Dataset_MDA/real_gopro/Training/training_set.json","Bellomo_Dataset_MDA/real_gopro/Training")
 
-register_coco_instances("dataset_test_real", {}, "Bellomo_Dataset_UDA/real_hololens/test/test_set.json", "Bellomo_Dataset_UDA/real_hololens/test")
-register_coco_instances("dataset_test_real2", {},"Bellomo_Dataset_UDA/real_gopro/Test/test_set.json","Bellomo_Dataset_UDA/real_gopro/Test")
+register_coco_instances("dataset_test_real", {}, "Bellomo_Dataset_MDA/real_hololens/test/test_set.json", "Bellomo_Dataset_MDA/real_hololens/test")
+register_coco_instances("dataset_test_real2", {},"Bellomo_Dataset_MDA/real_gopro/Test/test_set.json","Bellomo_Dataset_MDA/real_gopro/Test")
 
 logger = logging.getLogger("detectron2")
 
