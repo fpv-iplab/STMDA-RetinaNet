@@ -64,7 +64,7 @@ If you want to test the model load the new weights, set to 0 the number of itera
     <td>37.13%</td>
   </tr>
   <tr>
-    <td>DA-Faster RCNN</td>
+    <td><a href="https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_Domain_Adaptive_Faster_CVPR_2018_paper.pdf">DA-Faster RCNN</a></td>
     <td>S</td>
     <td>H+G merged</td>
     <td>10.53%</td>
@@ -118,7 +118,7 @@ Results of baseline and feature alignment methods combined with CycleGAN. H refe
     <td>69.59%</td>
   </tr>
   <tr>
-    <td>DA-Faster RCNN</td>
+    <td><a href="https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_Domain_Adaptive_Faster_CVPR_2018_paper.pdf">DA-Faster RCNN</a></td>
     <td>{G, H}</td>
     <td>H+G merged</td>
     <td>32.13%</td>
