@@ -1,8 +1,14 @@
 # Detectron2 implementation of MDA-RetinaNet [Unsupervised Multi-Target Domain Adaptation For Object Detection](https://iplab.dmi.unict.it/OBJ-MDA/) (submitted to International Conference on Image Processing 2021)
 <img src='mda-retinanet.png' width=100%/>
 
-## Introduction
-Follow the official guide to install [Detectron2 0.2.1](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md) on your pc or run the Dockerfile following these instructions:
+## Installation
+You can use this repo following one of these three methods:
+
+### Detectron 2 on you PC
+Follow the official guide to install [Detectron2 0.2.1](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md)
+
+### Detectron2 via Dockerfile
+Follow these instructions:
 ```
 cd docker/
 # Build 
@@ -16,6 +22,9 @@ If you exit from the container you can restart it using:
 docker start name_container
 docker exec -it name_container /bin/bash
 ```
+
+### Google Colab
+Load and run the MDA-RetinaNet.ipynb on Google coolab following the instructions inside the notebook.
 
 ## Dataset
 Dataset is available [here](https://iplab.dmi.unict.it/OBJ-MDA/)
