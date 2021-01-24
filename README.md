@@ -27,7 +27,7 @@ docker exec -it name_container /bin/bash
 Load and run the MDA-RetinaNet.ipynb on Google coolab following the instructions inside the notebook.
 
 ## Dataset
-Dataset is available [here](https://iplab.dmi.unict.it/OBJ-MDA/)
+Dataset is available [here](https://iplab.dmi.unict.it/OBJ-MDA/OBJ_MDA.zip)
 
 ### Data Preparation
 If you want to use this code with your dataset arrange the dataset in the format of COCO. Inside the script uda_train.py register your dataset using <br> ```register_coco_instances("dataset_name_soruce_training",{},"path_annotations","path_images")```<br>
