@@ -87,7 +87,7 @@ If you want to test the model load the new weights, set to 0 the number of itera
     <td>48.55%</td>
   </tr>
   <tr>
-    <td>DA-RetinaNet</td>
+    <td><a href="https://www.sciencedirect.com/science/article/pii/S0262885621000032?dgcid=rss_sd_all"> DA-RetinaNet </a></td>
     <td>S</td>
     <td>H+G merged</td>
     <td>31.63%</td>
@@ -141,7 +141,7 @@ Results of baseline and feature alignment methods combined with CycleGAN. H refe
     <td>66.45%</td>
   </tr>
   <tr>
-    <td>DA-RetinaNet</td>
+    <td><a href="https://www.sciencedirect.com/science/article/pii/S0262885621000032?dgcid=rss_sd_all">DA-RetinaNet</a></td>
     <td>{G, H}</td>
     <td>H+G merged</td>
     <td>52.07%</td>
@@ -156,9 +156,8 @@ Results of baseline and feature alignment methods combined with CycleGAN. H refe
   </tr>
 </table>
 
-<!---## Citation
-Please cite the following paper and leave a star ⭐ if you use this repository for your project.
-```
+## Leave a star ⭐ if you use this repository for your project.
+<!--```
 @inproceedings{pasqualino2021multitarget,
   year = { 2021 },
   booktitle = { International Conference on Image Processing (ICIP) },
