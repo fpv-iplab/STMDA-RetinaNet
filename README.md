@@ -157,7 +157,7 @@ Results of baseline and feature alignment methods combined with CycleGAN. H refe
 </table>
 
 <!---## Citation
-Please cite the following paper if you use this repository for your project.
+Please cite the following paper and live a star ⭐ if you use this repository for your project.
 ```
 @inproceedings{pasqualino2021multitarget,
   year = { 2021 },
