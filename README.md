@@ -24,26 +24,27 @@ docker exec -it name_container /bin/bash
 ```
 
 ### Google Colab
-Load and run the MDA-RetinaNet.ipynb on Google Colab following the instructions inside the notebook.
+Load and run the ```MDA-RetinaNet.ipynb``` on Google Colab following the instructions inside the notebook.
 
 ## Dataset
 Dataset is available [here](https://iplab.dmi.unict.it/OBJ-MDA/OBJ_MDA.zip)
 
 ### Data Preparation
-If you want to use this code with your dataset arrange the dataset in the format of COCO. Inside the script uda_train.py register your dataset using <br> ```register_coco_instances("dataset_name_soruce_training",{},"path_annotations","path_images")```<br>
+If you want to use this code with your dataset arrange the dataset in the format of COCO. Inside the script ```uda_train.py``` register your dataset using <br> ```register_coco_instances("dataset_name_soruce_training",{},"path_annotations","path_images")```<br>
 ```register_coco_instances("dataset_name_target_training",{},"path_annotations","path_images")```<br>
 ```register_coco_instances("dataset_name_target2_training",{},"path_annotations","path_images")```<br>
 ```register_coco_instances("dataset_name_target_test",{},"path_annotations","path_images")```<br>
 ```register_coco_instances("dataset_name_target_test2",{},"path_annotations","path_images")```<br>
 ### Training
-Replace at the following path ```detectron2/modeling/meta_arch/``` the retinanet.py script with our retinanet.py. Do the same for the fpn.py file at the path ```detectron2/modeling/backbone/```<br>
-Run the script mda_train.py <br>
+Replace at the following path ```detectron2/modeling/meta_arch/``` the r```etinanet.py``` script with our ```retinanet.py```. <br>
+Do the same for the ```fpn.py``` file at the path ```detectron2/modeling/backbone/```<br>
+Run the script ```mda_train.py``` <br>
 Trained models are available at these links: <br>
 [MDA-RetinaNet](https://iplab.dmi.unict.it/OBJ-MDA/MDA-RetinaNet.pth) <br>
 [MDA-RetinaNet-CycleGAN](https://iplab.dmi.unict.it/OBJ-MDA/MDA-RetinaNet-CycleGAN.pth)
 
 ### Testing
-If you want to test the model load the new weights, set to 0 the number of iterations and run mda_train.py
+If you want to test the model load the new weights, set to 0 the number of iterations and run ```mda_train.py```
 
 ### Results
 <p>
