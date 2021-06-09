@@ -30,13 +30,13 @@ Load and run the ```MDA-RetinaNet.ipynb``` on Google Colab following the instruc
 Dataset is available [here](https://iplab.dmi.unict.it/OBJ-MDA/OBJ_MDA.zip)
 
 ### Data Preparation
-If you want to use this code with your dataset arrange the dataset in the format of COCO. Inside the script ```uda_train.py``` register your dataset using <br> ```register_coco_instances("dataset_name_soruce_training",{},"path_annotations","path_images")```<br>
+If you want to use this code with your dataset arrange the dataset in the format of COCO. Inside the script ```mda_train.py``` register your dataset using <br> ```register_coco_instances("dataset_name_soruce_training",{},"path_annotations","path_images")```<br>
 ```register_coco_instances("dataset_name_target_training",{},"path_annotations","path_images")```<br>
 ```register_coco_instances("dataset_name_target2_training",{},"path_annotations","path_images")```<br>
 ```register_coco_instances("dataset_name_target_test",{},"path_annotations","path_images")```<br>
 ```register_coco_instances("dataset_name_target_test2",{},"path_annotations","path_images")```<br>
 ### Training
-Replace at the following path ```detectron2/modeling/meta_arch/``` the r```etinanet.py``` script with our ```retinanet.py```. <br>
+Replace at the following path ```detectron2/modeling/meta_arch/``` the ```retinanet.py``` script with our ```retinanet.py```. <br>
 Do the same for the ```fpn.py``` file at the path ```detectron2/modeling/backbone/```<br>
 Run the script ```mda_train.py``` <br>
 Trained models are available at these links: <br>
