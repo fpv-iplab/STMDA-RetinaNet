@@ -97,7 +97,7 @@ If you want to test the model load the new weights, set to 0 the number of itera
   <tr>
     <td>MDA-RetinaNet</td>
     <td>S</td>
-    <td>H+G</td>
+    <td>H, G</td>
     <td>34.97%</td>
     <td>50.81%</td>
   </tr>
@@ -151,7 +151,7 @@ Results of baseline and feature alignment methods combined with CycleGAN. H refe
   <tr>
     <td>MDA-RetinaNet</td>
     <td>{G, H}</td>
-    <td>H+G</td>
+    <td>H, G</td>
     <td>58.11%</td>
     <td>71.39%</td>
   </tr>
