@@ -1,4 +1,4 @@
-# Detectron2 implementation of MDA-RetinaNet [Unsupervised Multi-Target Domain Adaptation For Object Detection](https://iplab.dmi.unict.it/OBJ-MDA/)
+# Detectron2 implementation of MDA-RetinaNet [Unsupervised Multi-Target Domain Adaptation For Object Detection in Culltural Sites](https://iplab.dmi.unict.it/OBJ-MDA/)
 <img src='mda-retinanet.png' width=100%/>
 
 ## Installation
