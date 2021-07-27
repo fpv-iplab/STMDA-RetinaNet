@@ -1,4 +1,4 @@
-# Detectron2 implementation of STMDA-RetinaNet [A Multi Camera Usupervised Domain Adaptation Pipeline for Object Detection in Cultural Sites through Adversarial Learning and Self-Training](https://iplab.dmi.unict.it/OBJ-MDA/)(submitted to Computer Vision and Image Understanding)
+# Detectron2 implementation of STMDA-RetinaNet [A Multi Camera Usupervised Domain Adaptation Pipeline for Object Detection in Cultural Sites through Adversarial Learning and Self-Training](https://iplab.dmi.unict.it/OBJ-MDA/) (submitted to Computer Vision and Image Understanding)
 
 ## Architecture
 
