@@ -58,10 +58,10 @@ Inside the script ```stmda_train.py``` you can set the parameters for the second
 Run the script ```stmda_train.py``` <br>
 Trained models are available at these links: <br>
 [MDA-RetinaNet](https://iplab.dmi.unict.it/OBJ-MDA/MDA-RetinaNet.pth)<br>
-[STMDA-RetinaNet](https://iplab.dmi.unict.it/OBJ-MDA/) <br>
+[STMDA-RetinaNet](https://iplab.dmi.unict.it/OBJ-MDA/STMDA-RetinaNet.pth) <br>
 <br>
 [MDA-RetinaNet-CycleGAN](https://iplab.dmi.unict.it/OBJ-MDA/MDA-RetinaNet-CycleGAN.pth)<br>
-[STMDA-RetinaNet-CycleGAN](https://iplab.dmi.unict.it/OBJ-MDA/)
+[STMDA-RetinaNet-CycleGAN](https://iplab.dmi.unict.it/OBJ-MDA/STMDA-RetinaNet-CycleGAN.pth)
 
 ### Testing
 If you want to test the model load the new weights, set to 0 the number of iterations and run ```stmda_train.py```
