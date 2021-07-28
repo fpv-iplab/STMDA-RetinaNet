@@ -57,8 +57,11 @@ Do the same for the ```fpn.py``` file at the path ```detectron2/modeling/backbon
 Inside the script ```stmda_train.py``` you can set the parameters for the second step training like number of iteration and threshold.<br>
 Run the script ```stmda_train.py``` <br>
 Trained models are available at these links: <br>
-[STMDA-RetinaNet]() <br>
-[STMDA-RetinaNet-CycleGAN]()
+[MDA-RetinaNet](https://iplab.dmi.unict.it/OBJ-MDA/MDA-RetinaNet.pth)<br>
+[STMDA-RetinaNet](https://iplab.dmi.unict.it/OBJ-MDA/) <br>
+<br>
+[MDA-RetinaNet-CycleGAN](https://iplab.dmi.unict.it/OBJ-MDA/MDA-RetinaNet-CycleGAN.pth)<br>
+[STMDA-RetinaNet-CycleGAN](https://iplab.dmi.unict.it/OBJ-MDA/)
 
 ### Testing
 If you want to test the model load the new weights, set to 0 the number of iterations and run ```stmda_train.py```
