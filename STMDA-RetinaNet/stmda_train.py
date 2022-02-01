@@ -18,7 +18,7 @@ from detectron2.solver import build_lr_scheduler, build_optimizer
 from detectron2.utils.events import CommonMetricPrinter, EventStorage, JSONWriter, TensorboardXWriter
 import torch, torchvision
 from detectron2.data.datasets import register_coco_instances,load_coco_json
-from utils.annotator_fixer import fix_annotation
+from utils.annotator_fixer import fix_annotations
 
 def do_train(cfg_source, cfg_target, cfg_target2,  model, resume = False, max_epochs_alpha=40, step_1 = True):
 
@@ -169,14 +169,14 @@ def setup_training(synthetic_dataset, target_1, target_2, wd=0.001, step=1, thr=
     val_loader = build_detection_test_loader(cfg_source, "init_dataset_train_real")
     inference_on_dataset(model, val_loader, evaluator, True)
 
-    len_holo = fix_annotation("Bellomo_Dataset_UDA/real_hololens/training/training_set.json", "./output/coco_instances_results.json", "./output/new_train_holo.json")
+    len_holo = fix_annotations("Bellomo_Dataset_UDA/real_hololens/training/training_set.json", "./output/coco_instances_results.json", "./output/new_train_holo.json")
 
     from detectron2.evaluation import COCOEvaluator, inference_on_dataset
     evaluator = COCOEvaluator("init_dataset_train_real2", cfg_source, False, output_dir="./output/")
     val_loader = build_detection_test_loader(cfg_source, "init_dataset_train_real2")
     inference_on_dataset(model, val_loader, evaluator, True)
 
-    len_gopro = fix_annotation("Bellomo_Dataset_UDA/real_gopro/Training/training_set.json", "./output/coco_instances_results.json", "./output/new_train_gopro.json")
+    len_gopro = fix_annotations("Bellomo_Dataset_UDA/real_gopro/Training/training_set.json", "./output/coco_instances_results.json", "./output/new_train_gopro.json")
 
     if evaluate:
         #test Hololens
