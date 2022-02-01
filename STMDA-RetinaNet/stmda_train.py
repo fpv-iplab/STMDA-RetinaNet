@@ -23,7 +23,7 @@ from utils.annotator_fixer import fix_annotations
 def do_train(cfg_source, cfg_target, cfg_target2,  model, resume = False, max_epochs_alpha=40, step_1 = True):
 
     DatasetCatalog.clear()
-    register_coco_instances("dataset_train_synthetic", {}, "Bellomo_Dataset_UDA/synthetic/Object_annotations/new_synthetic.json", "Bellomo_Dataset_UDA/synthetic/images")
+    register_coco_instances("dataset_train_synthetic", {}, "Bellomo_Dataset_UDA/synthetic/Object_annotations/synthetic.json", "Bellomo_Dataset_UDA/synthetic/images")
     register_coco_instances("init_dataset_train_real", {}, "Bellomo_Dataset_UDA/real_hololens/training/training_set.json", "Bellomo_Dataset_UDA/real_hololens/training")
     register_coco_instances("init_dataset_train_real2", {},"Bellomo_Dataset_UDA/real_gopro/Training/training_set.json","Bellomo_Dataset_UDA/real_gopro/Training")
 
