@@ -34,13 +34,15 @@ def fix_annotations(start_json, prediction, output):
         image_id.append(i["image_id"])
         k+=1
     #selecting images with predictions
+    '''
     images = []
     for i in js_init["images"]:
         if i["id"] in image_id:
             images.append(i)
+    '''
 
 
 
-    T_js = {"annotations":annotations, "categories":js_init["categories"], "images":images}
+    T_js = {"annotations":annotations, "categories":js_init["categories"], "images":js_init["images"]} #images
     with open(output, 'w') as outfile:
         json.dump(T_js, outfile)
