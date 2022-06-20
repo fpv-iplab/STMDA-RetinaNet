@@ -1,4 +1,7 @@
-# Detectron2 implementation of STMDA-RetinaNet [A Multi Camera Unsupervised Domain Adaptation Pipeline for Object Detection in Cultural Sites through Adversarial Learning and Self-Training](https://iplab.dmi.unict.it/OBJ-MDA/) (submitted to Computer Vision and Image Understanding)
+# Detectron2 implementation of STMDA-RetinaNet
+This is the implementation of our Computer Vision and Image Understanding 2022 work 'A Multi Camera Unsupervised Domain Adaptation Pipeline for Object Detection in Cultural Sites through Adversarial Learning and Self-Training'. The aim is to reduce the gap between source and target distributions improving the object detector performance on the target domains when training and tests data belong to different distributions.<br>
+If you want to use this code with your dataset, please follow the following guide. <br>
+Please leave a star ⭐ if you use this repository for your project.
 
 ## Architecture
 
@@ -39,7 +42,7 @@ Load and run the ```STMDA-RetinaNet.ipynb``` on Google Colab following the instr
 Dataset is available [here](https://iplab.dmi.unict.it/OBJ-MDA/OBJ_MDA.zip)
 
 ### Data Preparation
-If you want to use this code with your dataset arrange the dataset in the format of COCO. Inside the script ```stmda_train.py``` register your dataset using: <br> ```register_coco_instances("dataset_name_soruce_training",{},"path_annotations","path_images")```<br>
+If you want to use this code with your dataset arrange the dataset in the format of COCO. Inside the script ```stmda_train.py``` register your dataset using: <br> ```register_coco_instances("dataset_name_source_training",{},"path_annotations","path_images")```<br>
 ```register_coco_instances("dataset_name_init_target_training",{},"path_annotations","path_images")```<br>
 ```register_coco_instances("dataset_name_init_target2_training",{},"path_annotations","path_images")```<br><br>
 
