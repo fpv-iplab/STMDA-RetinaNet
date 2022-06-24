@@ -1,7 +1,19 @@
 # Detectron2 implementation of STMDA-RetinaNet
 This is the implementation of our Computer Vision and Image Understanding 2022 work 'A Multi Camera Unsupervised Domain Adaptation Pipeline for Object Detection in Cultural Sites through Adversarial Learning and Self-Training'. The aim is to reduce the gap between source and target distributions improving the object detector performance on the target domains when training and tests data belong to different distributions.<br>
 If you want to use this code with your dataset, please follow the following guide. <br>
-Please leave a star ⭐ if you use this repository for your project.
+Please leave a star ⭐ and cite the following [paper](https://www.sciencedirect.com/science/article/abs/pii/S1077314222000911?CMX_ID=&SIS_ID=&dgcid=STMJ_AUTH_SERV_PUBLISHED&utm_acid=170381815&utm_campaign=STMJ_AUTH_SERV_PUBLISHED&utm_in=DM270343&utm_medium=email&utm_source=AC_) if you use this repository for your project.
+```
+@article{PASQUALINO2022103487,
+	title = {A multi camera unsupervised domain adaptation pipeline for object detection in cultural sites through adversarial learning and self-training},
+	journal = {Computer Vision and Image Understanding},
+	pages = {103487},
+	year = {2022},
+	issn = {1077-3142},
+	doi = {https://doi.org/10.1016/j.cviu.2022.103487},
+	url = {https://www.sciencedirect.com/science/article/pii/S1077314222000911},
+	author = {Giovanni Pasqualino and Antonino Furnari and Giovanni Maria Farinella}
+}
+```
 
 ## Architecture
 
