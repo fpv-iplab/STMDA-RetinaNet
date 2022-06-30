@@ -230,3 +230,4 @@ Results of baseline and feature alignment methods combined with CycleGAN. H refe
 ```-->
 ## Other Works
 [DA-RetinaNet](https://github.com/fpv-iplab/DA-RetinaNet) <br>
+[Detectron2 implementation of DA-Faster RCNN](https://github.com/GiovanniPasq/DA-Faster-RCNN)
