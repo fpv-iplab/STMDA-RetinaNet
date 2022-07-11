@@ -26,7 +26,8 @@ In this step the model is trained using synthetic labeled images (source domain)
 <img src='STMDA-RetinaNet-step2.png' width=100%/>
 
 ## Installation
-You can use this repo following one of these three methods:
+You can use this repo following one of these three methods:<br>
+NB: Detectron2 0.2.1 is required, installing other versions this code will not work.
 
 ### Detectron 2 on your PC
 Follow the official guide to install [Detectron2 0.2.1](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md)
