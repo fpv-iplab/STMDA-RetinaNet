@@ -162,6 +162,7 @@ def setup_training(synthetic_dataset, target_1, target_2, wd=0.001, step=1, thr=
         step_1 = False
 
     do_train(cfg_source, cfg_target, cfg_target2, model, max_epochs_alpha=max_epochs_alpha, step_1=step_1)
+    old_thr = model.score_threshold
     model.score_threshold = thr
 
     from detectron2.evaluation import COCOEvaluator, inference_on_dataset
@@ -179,6 +180,7 @@ def setup_training(synthetic_dataset, target_1, target_2, wd=0.001, step=1, thr=
     len_gopro = fix_annotations("Bellomo_Dataset_UDA/real_gopro/Training/training_set.json", "./output/coco_instances_results.json", "./output/new_train_gopro.json")
 
     if evaluate:
+        model.score_threshold = old_thr
         #test Hololens
         from detectron2.evaluation import COCOEvaluator, inference_on_dataset
         evaluator = COCOEvaluator("dataset_test_real", cfg_source, False, output_dir="./output/")
