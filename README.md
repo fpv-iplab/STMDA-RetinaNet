@@ -29,6 +29,11 @@ In this step the model is trained using synthetic labeled images (source domain)
 You can use this repo following one of these three methods:<br>
 NB: Detectron2 0.2.1 is required, installing other versions this code will not work.
 
+
+### Google Colab
+Quickstart here 👉 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/GiovanniPasq/506e9a535893de5ec287970af73968db/stmda-retinanet.ipynb)<br>
+Or load and run the ```STMDA-RetinaNet.ipynb``` on Google Colab following the instructions inside the notebook.
+
 ### Detectron 2 on your PC
 Follow the official guide to install [Detectron2 0.2.1](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md)<br>
 Or<br>
@@ -51,9 +56,6 @@ If you exit from the container you can restart it using:
 docker start name_container
 docker exec -it name_container /bin/bash
 ```
-
-### Google Colab
-Load and run the ```STMDA-RetinaNet.ipynb``` on Google Colab following the instructions inside the notebook.
 
 ## Dataset
 Dataset is available [here](https://iplab.dmi.unict.it/OBJ-MDA/OBJ_MDA.zip)
